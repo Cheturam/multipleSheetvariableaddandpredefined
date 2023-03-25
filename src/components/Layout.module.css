@@ -1,0 +1,30 @@
+.header {
+    background-color: #FFB3CB
+}
+
+.header-nav {
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.nav-active {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+.nav {
+    color: Grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav:active {
+    color: grey
+}
